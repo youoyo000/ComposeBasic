@@ -56,7 +56,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
 
     var x by remember { mutableStateOf(0) }
-
+//
     Column {
         Row {
             Text(text = x.toString(),
