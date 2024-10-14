@@ -74,7 +74,7 @@ Column {
                 Image(
                     painter = painterResource(id = R.drawable.minions),
                     contentDescription = "minions照片",
-                   // modifier = modifier.size(50.sp)
+
                 )
             }
             Button(
